@@ -1,0 +1,43 @@
+/* Apply background to the whole page */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #f5f5f5, #d7d5f2); /* Light gray gradient */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #cacaca;
+    margin: 20px 0;
+}
+
+
+small {
+    display: block;
+    margin-bottom: 20px;
+    color: #888;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #0921F5;
+}
+
+footer img {
+    width: 60px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
